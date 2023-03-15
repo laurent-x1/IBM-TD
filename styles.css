@@ -35,11 +35,41 @@ img{
 .music-annualplan-change{
     border: 2px solid black;
     height: 100px;
+    align-items: center;
+    display: flex;
 }
 
-.music-icon,.annual-plan,.change-link{
-    border: 2px solid blue;
+.music-icon, .change-link{
+    vertical-align: middle;
     height: 50px;
     width: 50px;
     display: inline-block;
+}
+.music-icon{
+    background-image: url("./images/icon-music.svg");
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+.annual-plan{
+    border: 2px solid blue;
+    margin-right: 4rem;
+    display: inline-block;
+}
+
+.change-link{
+    vertical-align: ;
+}
+
+.lower-container{
+    padding: 3rem;
+}
+.proceedbtn{
+    border:none;
+    border-radius: 0.6rem;
+    width:100%;
+    height:2.5rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
 }
