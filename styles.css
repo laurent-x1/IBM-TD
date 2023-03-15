@@ -1,0 +1,45 @@
+body{
+    background-color: hsl(225, 100%, 98%);
+}
+
+.maindiv{
+    margin: auto;
+    width:34%;
+    height: 35rem;
+    border-radius: 10px solid #73AD21;
+    padding:10px;
+    text-align: center;
+    background-color: hsl(224, 23%, 55%);
+    -webkit-border-radius: 10px solid #73AD21;
+    -moz-border-radius: 10px solid #73AD21;
+    -ms-border-radius: 10px solid #73AD21;
+    -o-border-radius: 10px solid #73AD21;
+    overflow: hidden;
+}
+
+img{
+    border-radius: inherit;
+    width: 25rem;
+    object-fit: contain;
+    border-radius: 10px ;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+}
+.illustration-hero-div{
+    width:450px;
+    border: solid red;
+    object-fit: fill;
+}
+.music-annualplan-change{
+    border: 2px solid black;
+    height: 100px;
+}
+
+.music-icon,.annual-plan,.change-link{
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
